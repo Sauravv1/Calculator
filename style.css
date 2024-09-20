@@ -1,0 +1,125 @@
+
+body{
+    
+    background-image: url(p1.png);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    position:relative;
+    overflow: scroll;
+    height: 100%;
+
+}
+
+.container{
+    text-align: center;
+    margin-top: 65px;
+}
+table{
+    margin:auto;
+}
+input{
+    font-size: 30px;
+    border:2px solid black;
+    text-align: right;
+    height:50px;
+    border-radius: 7px;
+    
+}
+button{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 30px;
+    background-color: rgb(20, 22, 21);
+    color: white;
+    width:90px;
+    height: 60px;
+    border-radius: 15px;
+}
+#clr{
+background-color:#7d1111;
+}
+#equall{
+    background-color:#0f5f0f;
+}
+
+
+@media only screen and (min-width:1200px)
+
+ {
+    .calc{
+        padding-top: 27px;
+        margin-left: 25vw;
+        margin-top:3vw;
+        padding-left: 20px;
+        padding-right: 20px;
+        border:2px solid rgba(133, 115, 12, 0.568);
+        padding-bottom: 20px;
+        display: inline-block;
+        background-color: #f9d1b7;
+background-image: linear-gradient(315deg, #f9d1b7 0%, #f894a4 74%);
+  border-radius: 15px;
+    }   
+ }
+ @media only screen and (min-width:1000px) and (max-width:1200px)
+
+ {
+    .calc{
+        margin-top:3vw;
+        padding-top: 27px;
+        margin-left: 25vw;
+        margin-top:3vw;
+        padding-left: 20px;
+        padding-right: 20px;
+        border:2px solid  rgba(133, 115, 12, 0.568);
+        padding-bottom: 20px;
+        display: inline-block;
+        background-color: #eec0c6;
+background-image: linear-gradient(315deg, #eec0c6 0%, #e58c8a 74%);
+
+  border-radius: 15px;
+    }   
+ }
+ @media only screen and (max-width:1000px) and (min-width:800px)
+
+ {
+    .calc{
+        padding-top: 27px;
+        margin-left: auto; 
+        margin-top:3vw;
+        padding-left: 20px;
+        padding-right: 20px;
+        border:2px solid  rgba(133, 115, 12, 0.568);
+        padding-bottom: 20px;
+        display: inline-block;
+        background-color: #f39f86;
+background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
+  border-radius: 15px;
+    }   
+ }
+ @media only screen and (max-width:800px)
+
+ {
+    .calc{
+        padding-top: 27px;
+        margin-left: auto; 
+        margin-top:3vw;
+        padding-left: 20px;
+        padding-right: 20px;
+        border:2px solid  rgba(133, 115, 12, 0.568);
+        padding-bottom: 20px;
+        display: inline-block;
+        background-color: #bdd8fe;
+        background-image: linear-gradient(315deg, #bdd8fe 0%, #e186b4 74%);
+  border-radius: 15px;
+    }   
+ }
+ #tt{
+    font-size:18px;
+     font-family: 'Architects Daughter', cursive;
+
+ }
+  
+  
+  
+ 
